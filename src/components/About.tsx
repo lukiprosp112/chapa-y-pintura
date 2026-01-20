@@ -47,11 +47,38 @@ const About = () => {
 
           {/* Image/Visual */}
           <div className="relative">
-            <img 
-              src="https://images.unsplash.com/photo-1458523132672-ec59c8e63ea0?w=600&h=600&fit=crop&q=80" 
-              alt="Taller GH Chapa y Pintura profesional - reparación de carrocería" 
-              className="w-full aspect-square rounded-2xl object-cover border border-border shadow-lg"
-            />
+            <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/30 via-primary/20 to-primary/10 overflow-hidden border border-border flex items-center justify-center p-8">
+              <div className="text-center">
+                <div className="mb-6">
+                  <div className="inline-block px-4 py-2 rounded-full bg-primary/20 border border-primary/40 mb-4">
+                    <span className="text-sm font-semibold text-primary">⭐ Clientes en Todo Aragón</span>
+                  </div>
+                </div>
+                <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-4 leading-tight">
+                  Miles de Clientes <span className="text-primary">100% Satisfechos</span>
+                </h3>
+                <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                  Desde Zaragoza hasta los rincones más alejados de Aragón, confían en nosotros para devolverle la vida a sus vehículos.
+                </p>
+                <div className="grid grid-cols-3 gap-4">
+                  <div className="bg-white/5 rounded-xl p-4 border border-border/50">
+                    <span className="text-3xl font-bold text-primary block mb-2">+15</span>
+                    <span className="text-sm text-muted-foreground">Años Taller</span>
+                  </div>
+                  <div className="bg-white/5 rounded-xl p-4 border border-border/50">
+                    <span className="text-3xl font-bold text-primary block mb-2">+2000</span>
+                    <span className="text-sm text-muted-foreground">Vehículos</span>
+                  </div>
+                  <div className="bg-white/5 rounded-xl p-4 border border-border/50">
+                    <span className="text-3xl font-bold text-primary block mb-2">100%</span>
+                    <span className="text-sm text-muted-foreground">Garantía</span>
+                  </div>
+                </div>
+                <p className="text-sm text-muted-foreground mt-6 italic">
+                  "Somos el taller de referencia en chapa y pintura de Aragón"
+                </p>
+              </div>
+            </div>
             {/* Decorative elements */}
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/20 rounded-2xl -z-10" />
             <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-primary/10 rounded-2xl -z-10" />
