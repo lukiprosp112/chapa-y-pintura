@@ -66,8 +66,8 @@ const About = () => {
                     <span className="text-sm text-muted-foreground">Años Taller</span>
                   </div>
                   <div className="bg-white/5 rounded-xl p-4 border border-border/50">
-                    <span className="text-3xl font-bold text-primary block mb-2">+2000</span>
-                    <span className="text-sm text-muted-foreground">Vehículos</span>
+                    <span className="text-3xl font-bold text-primary block mb-2">⭐</span>
+                    <span className="text-sm text-muted-foreground">Excelencia</span>
                   </div>
                   <div className="bg-white/5 rounded-xl p-4 border border-border/50">
                     <span className="text-3xl font-bold text-primary block mb-2">100%</span>
