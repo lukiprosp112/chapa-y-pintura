@@ -1,12 +1,12 @@
 import { CheckCircle } from 'lucide-react';
 
 const features = [
-  'Más de 15 años de experiencia en el sector',
-  'Materiales y pinturas de primera calidad',
-  'Técnicos especializados y formación continua',
-  'Trabajamos con todas las compañías de seguros',
-  'Garantía en todos nuestros trabajos',
-  'Vehículo de sustitución disponible',
+  'Reparación de Chapa',
+  'Pintura Completa',
+  'Reparación de Golpes',
+  'Pulido y Abrillantado',
+  'Preparación de Superficies',
+  'Acabados Profesionales',
 ];
 
 const About = () => {
