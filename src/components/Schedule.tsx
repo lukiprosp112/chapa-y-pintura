@@ -98,7 +98,7 @@ const Schedule = () => {
             {/* Map */}
             <div className="rounded-xl overflow-hidden border border-border aspect-video">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.456446337168!2d-0.9350153!3d41.6387735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd596b2bd65bd0a3%3A0x8187011bb77431a6!2sGH%20Chapa%20y%20Pintura!5e0!3m2!1ses!2ses!4v1700000000000"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.4564463371684!2d-0.9375956!3d41.6387775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd596b2bd65bd0a3%3A0x8187011bb77431a6!2sGH%20Chapa%20y%20Pintura!5e0!3m2!1ses!2ses!4v1735945812445"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
