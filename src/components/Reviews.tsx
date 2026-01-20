@@ -103,7 +103,7 @@ const Reviews = () => {
         {/* Google Button */}
         <div className="text-center mt-12">
           <a
-            href="https://www.google.com/maps/place/GH+Chapa+y+Pintura/@41.6387775,-0.9375956,17z"
+            href="https://www.google.com/maps/place/GH+Chapa+y+Pintura/@41.6387775,-0.9375956,17z/data=!4m8!3m7!1s0xd596b2bd65bd0a3:0x8187011bb77431a6!8m2!3d41.6387735!4d-0.9350153!9m1!1b1!16s%2Fg%2F11q9m4s0yt?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline inline-flex items-center gap-2"
