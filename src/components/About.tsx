@@ -48,8 +48,8 @@ const About = () => {
           {/* Image/Visual */}
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1487730116645-74489c95b41b?w=600&h=600&fit=crop&q=80" 
-              alt="Taller GH Chapa y Pintura profesional" 
+              src="https://images.unsplash.com/photo-1458523132672-ec59c8e63ea0?w=600&h=600&fit=crop&q=80" 
+              alt="Taller GH Chapa y Pintura profesional - reparación de carrocería" 
               className="w-full aspect-square rounded-2xl object-cover border border-border shadow-lg"
             />
             {/* Decorative elements */}
