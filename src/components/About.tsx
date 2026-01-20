@@ -47,33 +47,11 @@ const About = () => {
 
           {/* Image/Visual */}
           <div className="relative">
-            <div className="aspect-square rounded-2xl metallic-bg overflow-hidden border border-border">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="w-24 h-24 mx-auto mb-6 rounded-2xl bg-primary/20 flex items-center justify-center">
-                    <span className="text-5xl font-bold text-primary">GH</span>
-                  </div>
-                  <h3 className="text-2xl font-bold text-foreground mb-2">GH Chapa y Pintura</h3>
-                  <p className="text-muted-foreground">Profesionales de confianza</p>
-                  <div className="mt-6 flex justify-center gap-4 text-center">
-                    <div>
-                      <span className="text-3xl font-bold text-primary block">+15</span>
-                      <span className="text-sm text-muted-foreground">Años</span>
-                    </div>
-                    <div className="w-px bg-border" />
-                    <div>
-                      <span className="text-3xl font-bold text-primary block">+2000</span>
-                      <span className="text-sm text-muted-foreground">Clientes</span>
-                    </div>
-                    <div className="w-px bg-border" />
-                    <div>
-                      <span className="text-3xl font-bold text-primary block">100%</span>
-                      <span className="text-sm text-muted-foreground">Garantía</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <img 
+              src="https://images.unsplash.com/photo-1487730116645-74489c95b41b?w=600&h=600&fit=crop&q=80" 
+              alt="Taller GH Chapa y Pintura profesional" 
+              className="w-full aspect-square rounded-2xl object-cover border border-border shadow-lg"
+            />
             {/* Decorative elements */}
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/20 rounded-2xl -z-10" />
             <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-primary/10 rounded-2xl -z-10" />
