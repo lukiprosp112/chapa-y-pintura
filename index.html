@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Core Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!-- Title & Description -->
+    <title>GH Chapa y Pintura | Taller Chapa y Pintura La Muela Zaragoza</title>
+    <meta name="description" content="Taller de chapa y pintura profesional en La Muela, Zaragoza. Reparaciones rápidas, pintura perfecta y presupuesto gratis. Tel: 665 969 361." />
+    <meta name="keywords" content="chapa y pintura Zaragoza, taller pintura La Muela, reparación golpes Zaragoza, carrocería Zaragoza, taller chapa Zaragoza" />
+    <meta name="author" content="GH Chapa y Pintura" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://ghchapapintura.es" />
+    
+    <!-- Theme Color (Mobile) -->
+    <meta name="theme-color" content="#ff4d00" />
+    
+    <!-- Open Graph (Social) -->
+    <meta property="og:title" content="GH Chapa y Pintura | Taller en La Muela, Zaragoza" />
+    <meta property="og:description" content="Taller de chapa y pintura profesional. Reparaciones rápidas y presupuesto gratis." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:url" content="https://ghchapapintura.es" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ghchapapintura" />
+    
+    <!-- Favicon (SVG Inline - Spray Paint Can) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><style>.spray{fill:%23ff4d00;stroke:%23000;stroke-width:3;stroke-linejoin:round}.cap{fill:%23333;stroke:%23000;stroke-width:2}.nozzle{fill:%23666;stroke:%23000;stroke-width:1.5}.paint{fill:%23fff;stroke:%23000;stroke-width:2}</style></defs><rect class='spray' x='25' y='30' width='50' height='50' rx='8'/><ellipse class='cap' cx='50' cy='28' rx='22' ry='8'/><rect class='nozzle' x='48' y='18' width='4' height='10'/><circle class='paint' cx='50' cy='50' r='16'/></svg>">
+    <link rel="apple-touch-icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><defs><style>.spray{fill:%23ff4d00;stroke:%23000;stroke-width:4;stroke-linejoin:round}.cap{fill:%23333;stroke:%23000;stroke-width:3}.nozzle{fill:%23666;stroke:%23000;stroke-width:2}.paint{fill:%23fff;stroke:%23000;stroke-width:3}</style></defs><rect class='spray' x='45' y='54' width='90' height='90' rx='14'/><ellipse class='cap' cx='90' cy='50' rx='39' ry='14'/><rect class='nozzle' x='86' y='32' width='8' height='18'/><circle class='paint' cx='90' cy='90' r='29'/></svg>">
+    
+    <!-- Fonts with font-display: swap for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    
+    <!-- Critical CSS (Inline) -->
+    <style>
+      :root {
+        --primary: #ff4d00;
+        --secondary: #0ea5e9;
+        --success: #10b981;
+        --warning: #f59e0b;
+        --danger: #ef4444;
+        --muted: #6b7280;
+        --bg: #ffffff;
+        --fg: #1f2937;
+        --border: #e5e7eb;
+      }
+      
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      html {
+        scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      body {
+        font-family: 'Montserrat', sans-serif;
+        font-size: clamp(1rem, 1.1vw, 1.1rem);
+        line-height: 1.6;
+        color: var(--fg);
+        background: var(--bg);
+        overflow-x: hidden;
+      }
+      
+      h1 { font-size: clamp(1.5rem, 5vw, 3.5rem); font-weight: 800; }
+      h2 { font-size: clamp(1.25rem, 4vw, 2.5rem); font-weight: 700; }
+      h3 { font-size: clamp(1.1rem, 3vw, 1.75rem); font-weight: 600; }
+      
+      button, a {
+        touch-action: manipulation;
+        cursor: pointer;
+      }
+      
+      button, [role="button"], .btn-primary, .btn-secondary {
+        min-height: 48px;
+        min-width: 48px;
+        padding: clamp(0.75rem, 2vw, 1rem) clamp(1rem, 3vw, 1.5rem);
+        border-radius: 6px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        border: none;
+        font-size: clamp(0.9rem, 2vw, 1rem);
+      }
+      
+      .btn-primary {
+        background: var(--primary);
+        color: white;
+      }
+      
+      .btn-primary:hover, .btn-primary:focus {
+        background: #e63d00;
+        outline: 2px solid var(--border);
+      }
+      
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+      
+      /* Mobile-first: 320px - 480px */
+      @media (max-width: 640px) {
+        body {
+          font-size: 1rem;
+        }
+        
+        h1 { font-size: 1.75rem; }
+        h2 { font-size: 1.35rem; }
+        h3 { font-size: 1.15rem; }
+        
+        section {
+          padding: clamp(1rem, 5vw, 1.5rem) clamp(1rem, 4vw, 1.5rem);
+        }
+      }
+      
+      /* Tablet & Desktop */
+      @media (min-width: 641px) {
+        section {
+          padding: clamp(2rem, 6vw, 3rem) clamp(2rem, 5vw, 3rem);
+        }
+      }
+      
+      /* Floating Action Button (Mobile Only) */
+      .fab-container {
+        position: fixed;
+        bottom: 1.5rem;
+        right: 1rem;
+        z-index: 40;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+      
+      .fab {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-weight: 700;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        border: none;
+        cursor: pointer;
+      }
+      
+      .fab:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+      }
+      
+      .fab-whatsapp {
+        background: #25D366;
+        color: white;
+      }
+      
+      .fab-phone {
+        background: var(--primary);
+        color: white;
+      }
+      
+      @media (min-width: 769px) {
+        .fab-container {
+          display: none;
+        }
+      }
+      
+      /* Performance: reduce animations */
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    
+    <!-- Floating Action Buttons (Mobile Only) -->
+    <div class="fab-container">
+      <a href="tel:+34665969361" class="fab fab-phone" title="Llamar" aria-label="Llamar al taller">
+        📞
+      </a>
+      <a href="https://wa.me/34665969361?text=Hola,%20quiero%20presupuesto%20para%20chapa%20y%20pintura" target="_blank" rel="noopener noreferrer" class="fab fab-whatsapp" title="WhatsApp" aria-label="Contactar por WhatsApp">
+        💬
+      </a>
+    </div>
+    
+    <!-- Main App -->
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Performance Optimization Script -->
+    <script>
+      // Prevent layout shift on mobile
+      if ('serviceWorker' in navigator && window.location.protocol === 'https:') {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+      
+      // Optimize images loading
+      if ('IntersectionObserver' in window) {
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        const imageObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const img = entry.target;
+              img.src = img.dataset.src || img.src;
+              img.classList.remove('lazy');
+              imageObserver.unobserve(img);
+            }
+          });
+        });
+        images.forEach(img => imageObserver.observe(img));
+      }
+    </script>
+  </body>
+</html>
