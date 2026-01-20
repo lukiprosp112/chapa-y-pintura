@@ -6,7 +6,7 @@ const schedule = [
   { day: 'Miércoles', hours: '09:00 - 18:00', open: true },
   { day: 'Jueves', hours: '09:00 - 18:00', open: true },
   { day: 'Viernes', hours: '09:00 - 18:00', open: true },
-  { day: 'Sábado', hours: '09:00 - 13:00', open: true },
+  { day: 'Sábado', hours: 'Cerrado', open: false },
   { day: 'Domingo', hours: 'Cerrado', open: false },
 ];
 
