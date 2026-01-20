@@ -77,8 +77,8 @@ const Schedule = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Teléfono</span>
-                  <a href="tel:+34976000000" className="font-medium text-foreground hover:text-primary transition-colors">
-                    976 000 000
+                  <a href="tel:+34665969361" className="font-medium text-foreground hover:text-primary transition-colors">
+                    665 969 361
                   </a>
                 </div>
               </div>
