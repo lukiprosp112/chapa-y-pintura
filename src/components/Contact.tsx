@@ -100,7 +100,7 @@ const Contact = () => {
             </a>
             
             <a 
-              href="mailto:info@ghchapapintura.es"
+              href="mailto:ghchapaypintura@hotmail.es"
               className="bg-card rounded-xl p-5 border border-border flex items-center gap-4 
                          hover:border-primary transition-colors touch-manipulation group"
               style={{ minHeight: '80px' }}
@@ -111,7 +111,7 @@ const Contact = () => {
               </div>
               <div>
                 <span className="text-sm text-muted-foreground block">Email</span>
-                <span className="font-medium text-foreground text-sm">info@ghchapapintura.es</span>
+                <span className="font-medium text-foreground text-sm">ghchapaypintura@hotmail.es</span>
               </div>
             </a>
             

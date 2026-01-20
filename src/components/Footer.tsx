@@ -55,11 +55,11 @@ const Footer = ({ onOpenLegal }: FooterProps) => {
               </li>
               <li>
                 <a 
-                  href="mailto:info@ghchapapintura.es" 
+                  href="mailto:ghchapaypintura@hotmail.es" 
                   className="flex items-center gap-3 text-muted-foreground text-sm hover:text-primary transition-colors"
                 >
                   <Mail className="w-4 h-4 text-primary flex-shrink-0" />
-                  <span>info@ghchapapintura.es</span>
+                  <span>ghchapaypintura@hotmail.es</span>
                 </a>
               </li>
             </ul>

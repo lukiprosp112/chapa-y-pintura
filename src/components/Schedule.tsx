@@ -82,14 +82,14 @@ const Schedule = () => {
                   </a>
                 </div>
               </div>
-              <div className="bg-card rounded-xl p-4 border border-border flex items-center gap-4 sm:col-span-2">
+              <div className="bg-card rounded-xl p-4 border border-border flex items-center gap-4">
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <Mail className="w-6 h-6 text-primary" />
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email</span>
-                  <a href="mailto:info@ghchapapintura.es" className="font-medium text-foreground hover:text-primary transition-colors">
-                    info@ghchapapintura.es
+                  <a href="mailto:ghchapaypintura@hotmail.es" className="font-medium text-foreground hover:text-primary transition-colors">
+                    ghchapaypintura@hotmail.es
                   </a>
                 </div>
               </div>
